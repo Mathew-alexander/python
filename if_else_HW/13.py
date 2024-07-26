@@ -1,0 +1,20 @@
+print("program to count total number of notes in given amount")
+amount=int(input("Enter the amount: "))
+note2000= amount // 2000
+amount1= amount - (2000 * note2000)
+print("2000 = ", note2000)
+note500= amount1 // 500
+amount2= amount1 - (500 * note500)
+print("500 = ", note500)
+note200= amount2 // 200
+amount3= amount2 - (200 * note200)
+print("200 = ", note200)
+note100= amount3 // 100
+amount4= amount3 - (100 * note100)
+print("100 = ", note100)
+note50= amount4 // 50
+amount5= amount4 - (50 * note50)
+print("50 = ", note50)
+note20=amount5 // 20
+amount6 = amount5 - (20 * note20)
+print("20= ", note20 )
