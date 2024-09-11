@@ -1,0 +1,6 @@
+matrix=int(input("Enter the number: "))
+space=matrix
+for i in range(matrix+1,0,-1):
+    print(" "*space,end="")
+    print("* "*i)
+    space+=1
